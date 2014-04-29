@@ -19,7 +19,6 @@ namespace AngryNerds
 		SpriteBatch _spriteBatch;
 
 		private World _world;
-		private Body _floor;
 		private SpriteBody[] _nerdObjects;
 
 		public Game1()
@@ -42,18 +41,16 @@ namespace AngryNerds
 
 		protected override void LoadContent()
 		{
-			// Create a new SpriteBatch, which can be used to draw textures.
 			_spriteBatch = new SpriteBatch(GraphicsDevice);
 
+			// Create main nerd and a pyramid of nerds
 			var headTexture = Content.Load<Texture2D>("Nogginhead");
-
 			var nerdObjects = new List<SpriteBody>
 			{
 				new SpriteBody(_world, headTexture, new Vector2(10, 10))
 			};
 			var newNerds = CreateNerdPyramid(headTexture, 450, 5);
 			nerdObjects.AddRange(newNerds);
-
 			_nerdObjects = nerdObjects.ToArray();
 		}
 
@@ -110,6 +107,22 @@ namespace AngryNerds
 			base.Update(gameTime);
 		}
 
+		protected override void Draw(GameTime gameTime)
+		{
+			GraphicsDevice.Clear(Color.Black);
+
+			_spriteBatch.Begin();
+			for (var i = 0; i < _nerdObjects.Length; i++)
+			{
+				_nerdObjects[i].Draw(_spriteBatch);
+			}
+			_spriteBatch.End();
+
+			base.Draw(gameTime);
+		}
+
+		#region Touch/Mouse input helper methods
+
 		private void FindActiveNerd(Vector2? force, Vector2 forceActionPosition)
 		{
 			if (force == null)
@@ -152,23 +165,6 @@ namespace AngryNerds
 		private Vector2? _lastPosition;
 		private SpriteBody _activeNerd;
 
-		/// <summary>
-		/// This is called when the game should draw itself.
-		/// </summary>
-		/// <param name="gameTime">Provides a snapshot of timing values.</param>
-		protected override void Draw(GameTime gameTime)
-		{
-			GraphicsDevice.Clear(Color.CornflowerBlue);
-
-			_spriteBatch.Begin();
-			for (var i = 0; i < _nerdObjects.Length; i++)
-			{
-				_nerdObjects[i].Draw(_spriteBatch);
-			}
-			_spriteBatch.End();
-
-
-			base.Draw(gameTime);
-		}
+		#endregion
 	}
 }
