@@ -18,9 +18,9 @@ namespace AngryNerds
 		public SpriteBody(World world, Texture2D texture, Vector2 positionInPixels)
 		{
 			_body = BodyFactory.CreateCircle(world,
-				ConvertUnits.ToSimUnits(texture.Width) / 2f,
-				10f,
-				ConvertUnits.ToSimUnits(positionInPixels));
+				radius: ConvertUnits.ToSimUnits(texture.Width) / 2f,
+				density: 10f,
+				position: ConvertUnits.ToSimUnits(positionInPixels));
 
 			_body.BodyType = BodyType.Dynamic;
 			_body.Restitution = 0.8f;
