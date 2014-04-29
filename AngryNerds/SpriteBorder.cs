@@ -24,6 +24,7 @@ namespace AngryNerds
 			};
 
 			_body = BodyFactory.CreateLoopShape(world, borders);
+			_body.Friction = 10f;
 		}
 	}
 }
