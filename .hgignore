@@ -1,0 +1,5 @@
+syntax: glob
+Farseer Physics Engine 3.5/*
+FarseerWin8/*
+AngryNerds/bin/*
+AngryNerds/obj/*
