@@ -4,3 +4,5 @@ FarseerWin8/*
 AngryNerds/bin/*
 AngryNerds/obj/*
 AngryNerds.v12.suo
+*/Thumbs.db
+*.csproj.user
