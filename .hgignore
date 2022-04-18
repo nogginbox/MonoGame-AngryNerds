@@ -1,8 +1,0 @@
-syntax: glob
-Farseer Physics Engine 3.5/*
-FarseerWin8/*
-AngryNerds/bin/*
-AngryNerds/obj/*
-AngryNerds.v12.suo
-*/Thumbs.db
-*.csproj.user

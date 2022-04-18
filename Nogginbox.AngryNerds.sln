@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32408.312
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nogginbox.AngryNerds.DesktopOgl", "Nogginbox.AngryNerds.DesktopOgl\Nogginbox.AngryNerds.DesktopOgl.csproj", "{F25314AC-0F79-4CEF-91B4-D3325183210C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Nogginbox.AngryNerds", "Nogginbox.AngryNerds\Nogginbox.AngryNerds.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nogginbox.AngryNerds.WindowsUniversal", "Nogginbox.AngryNerds.WindowsUniversal\Nogginbox.AngryNerds.WindowsUniversal.csproj", "{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Debug|ARM.Build.0 = Debug|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Debug|x64.Build.0 = Debug|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Debug|x86.Build.0 = Debug|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Release|ARM.Build.0 = Release|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Release|x64.ActiveCfg = Release|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Release|x64.Build.0 = Release|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Release|x86.ActiveCfg = Release|Any CPU
+		{F25314AC-0F79-4CEF-91B4-D3325183210C}.Release|x86.Build.0 = Release|Any CPU
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|Any CPU.Build.0 = Debug|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|ARM.Build.0 = Debug|ARM
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|ARM.Deploy.0 = Debug|ARM
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|x64.ActiveCfg = Debug|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|x64.Build.0 = Debug|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|x64.Deploy.0 = Debug|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|x86.ActiveCfg = Debug|x86
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|x86.Build.0 = Debug|x86
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Debug|x86.Deploy.0 = Debug|x86
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|Any CPU.ActiveCfg = Release|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|Any CPU.Build.0 = Release|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|Any CPU.Deploy.0 = Release|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|ARM.ActiveCfg = Release|ARM
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|ARM.Build.0 = Release|ARM
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|ARM.Deploy.0 = Release|ARM
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|x64.ActiveCfg = Release|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|x64.Build.0 = Release|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|x64.Deploy.0 = Release|x64
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|x86.ActiveCfg = Release|x86
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|x86.Build.0 = Release|x86
+		{EC7413F2-D4DE-467C-8725-74FA0DF3EE0E}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD2801EE-F051-4DDE-A650-05F5DC341BA5}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Nogginbox.AngryNerds\Nogginbox.AngryNerds.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+		Nogginbox.AngryNerds\Nogginbox.AngryNerds.projitems*{f25314ac-0f79-4cef-91b4-d3325183210c}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
