@@ -10,8 +10,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AngryNerdGame.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)SpriteBody.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)SpriteBorder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sprites\AngryNerdSpriteFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sprites\SpriteBody.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sprites\SpriteBorder.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Content\" />

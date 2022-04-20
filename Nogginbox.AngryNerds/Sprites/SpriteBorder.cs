@@ -4,7 +4,7 @@ using Genbox.VelcroPhysics.Shared;
 using Genbox.VelcroPhysics.Utilities;
 using Microsoft.Xna.Framework;
 
-namespace Nogginbox.AngryNerds
+namespace Nogginbox.AngryNerds.Sprites
 {
     public class SpriteBorder
     {
@@ -24,7 +24,7 @@ namespace Nogginbox.AngryNerds
             };
 
             _body = BodyFactory.CreateLoopShape(world, borders);
-            _body.Friction = 10f;
+            _body.Friction = 1f;
         }
 
         public void RemoveFromWorld()

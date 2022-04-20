@@ -4,7 +4,7 @@ using Genbox.VelcroPhysics.Dynamics;
 using Genbox.VelcroPhysics.Factories;
 using Genbox.VelcroPhysics.Utilities;
 
-namespace Nogginbox.AngryNerds
+namespace Nogginbox.AngryNerds.Sprites
 {
     public class SpriteBody
     {
@@ -23,7 +23,7 @@ namespace Nogginbox.AngryNerds
 
             _body.BodyType = BodyType.Dynamic;
             _body.Restitution = 0.8f;
-            _body.Friction = 1f;
+            _body.Friction = 0;
 
             _texture = texture;
             // The texture is drawn using top left coords, so work out offset to use
